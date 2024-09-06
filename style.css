@@ -1,0 +1,338 @@
+body{
+    background-color: rgb(220, 232, 241);
+
+}
+.upper{
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    border-bottom: 0px;
+}
+.footer{
+    background-color: orange;
+    border-bottom: 2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 2px;
+    border-color: blue;
+    border-style: solid;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    /* border-color: orange;
+    border-style: solid;
+    border-width: 2px; */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+     padding: 0.5rem; 
+     border-color: orange;
+     border-style: solid;
+     border-width: 2px;
+     border-bottom: 0px;
+}
+
+nav ul li {
+    margin: 0.5rem;
+}
+nav ul li a {
+     color: rgb(224, 142, 17);
+     font-size: larger;
+    text-decoration:none;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    
+}
+a:hover{
+    color: red;
+    font-size: x-large;
+}
+
+#event-slider img:hover{ 
+   transform: translate(10px,-20px);
+   transition-duration: 2s;
+   border-color: orange;
+   border-width: 2px;
+   border-style: solid;
+   
+}
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(226, 132, 8); */
+}
+
+
+#event-slider{
+    color: white;
+    display: flex;
+    animation: slide 20s linear infinite; /* Adjust the duration as needed */
+    margin-bottom: 200px;
+}
+
+#event-slider img{
+
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#academic_calender{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 300px;
+    height: 200px;
+    width: 300px;
+    background-color: orange;
+    display: inline-block;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    /* border-radius: 20px; */
+
+}
+#assessment_guideline{
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 200px;
+    width: 300px;
+    background-color: orange;
+    display: inline-block;
+    flex-grow: 2;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    /* border-radius: 20px; */
+
+    
+}
+
+.department {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  
+  .department > div {
+    height:250px;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+ 
+   
+  }
+
+.department :hover{
+    background-color: orange;
+    transform: translate(10px,-20px);
+    transition-duration: 2s;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.placement {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: DodgerBlue; */
+  }
+  
+  .placement > div {
+    /* background-color: #f1f1f1; */
+    height:250px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+ 
+  }
+
+  .placement :hover{
+    background-color: orange;
+    transform: translate(10px,-20px);
+    transition-duration: 2s;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.placement_office{
+    padding: 10px;
+    margin-top: 150px;
+    margin-left: 150px;
+    height: 250px;
+    width: 400px;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+.placement_office :hover{
+    background-color: orange;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+.infra{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 40px;
+    padding: 25px;
+}
+.infra img{
+    padding: 3px;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.infra  :hover{
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+     transform: translate(10px,-20px);
+    transition-duration: 2s; 
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    ;
+  }
+  
+  td, th {
+    border: 1px solid orange;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  th{
+    background-color: orange;
+    border-color: black;
+  }
+
+  .workshop{
+    margin-bottom: 300px;
+  }
+
+  .contact1{
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    /* background-color: orange; */
+  }
+
+  .lower{
+    height: 800px;
+    width: 100%;
+    background-color: darkblue;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: inline-block; */
+  }
+
+  .contact_info{
+    height: 200px;
+    width: 1100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+  }
+  .quicklink1{
+    height: 400px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+    border-color: orange;
+    border-width: 2px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-style: solid;
+  }
+  .quicklink2{
+    height: 400px;
+    width: 200px;
+    margin-left: 20px;
+     margin-top:50px; 
+     padding: 25px;
+    border-color: orange;
+    border-width: 2px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-style: solid;
+  }
+  .quicklink3{
+    height: 400px;
+    width: 200px;
+    margin-left: 20px;
+     margin-top:50px; 
+     padding: 25px;
+    border-color: orange;
+    border-width: 2px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-style: solid;
+  }
+  .quicklink4{
+    height: 400px;
+    width: 350px;
+    margin-left: 20px;
+     margin-top:50px; 
+     padding: 25px;
+    border-color: orange;
+    border-width: 2px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-style: solid;
+  }
